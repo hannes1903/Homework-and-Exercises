@@ -1,0 +1,15 @@
+
+
+def func(*args):
+    if args:
+        return max(args) - min(args)
+    else:
+        return 0
+
+print (func(1, 3, 7))
+
+
+
+
+
+
